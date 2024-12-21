@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+
+</head>
+<body id="homepage">
+
+  <header>
+    <div id="nav-bar" class="nav">
+        <div class="nav-content">
+            <img src="./images/logo.svg" alt="" >
+            <div class="nav-toggle" id="nav-toggle">
+                <img src="./images/icon-menu.svg" class="menu-open" alt="">
+                <img src="./images/icon-close-menu.svg" class="menu-close">
+            </div>
+        </div>
+     
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+                <nav>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link nav-toggledown nav-lister" id="nav-toggledown" >
+                            Features <img src="./images/icon-arrow-down.svg" class="arrow-down"><img src="./images/icon-arrow-up.svg" alt="" class="arrow-up">
+                        </a>
+                        <ul class="dropdown-menu" id="dropdown-menu">
+                            <li><a href="#" class="dropdown-link"><img src="./images/icon-todo.svg" alt=""> Todo List</a></li>
+                            <li><a href="#" class="dropdown-link"><img src="./images/icon-calendar.svg" alt=""> Calender</a></li>
+                            <li><a href="#" class="dropdown-link"><img src="./images/icon-reminders.svg" alt=""> Reminders</a></li>
+                            <li><a href="#" class="dropdown-link"><img src="./images/icon-planning.svg" alt=""> Planning</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link nav-toggledown2" id="nav-toggledown2">
+                            Company  <img src="./images/icon-arrow-down.svg" class="arrow-down"><img src="./images/icon-arrow-up.svg" alt="" class="arrow-up">
+                        </a>
+                        <ul class="dropdown-menu2" id="dropdown-menu2">
+                            <li><a href="#" class="dropdown-link">History</a></li>
+                            <li><a href="#" class="dropdown-link">Our Team</a></li>
+                            <li><a href="#" class="dropdown-link">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class=" no-dropdown"><a href="#" class="nav-link">Careers</a></li>
+                    <li class=" no-dropdown"><a href="#" class="nav-link">About</a></li>
+                </nav>
+                <li class="signin-up">
+                    <a href="#" class="nav-link " >Login</a></li>
+                <li class="signin-up button"><a href="#" class="nav-link">
+                    <button class="button-register">Register</button>
+                </a></li>
+            </ul>
+        
+           
+        </div>
+
+    </div>
+</header>
+
+<div class="body-content-desktop body-content-mobile">
+    <img src="./images/image-hero-desktop.png" class="image-hero-desktop" alt="" srcset="">
+    <img src="./images/image-hero-mobile.png" class="image-hero-mobile" alt="">
+  <div class="body-writeup-desktop body-writeup-mobile">
+    <h1 class="title-desktop title-mobile">Make remote work</h1>
+  
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+  
+        <a href="#"><button class="btn-learnmore-desktop btn-learnmore-mobile">Learn more</button></a>
+        
+        <div class="footer-image-desktop footer-image-mobile">
+        <img src="./images/client-databiz.svg" alt="" srcset="">
+        <img src="./images/client-audiophile.svg" alt="" srcset="">
+        <img src="./images/client-meet.svg" alt="" srcset="">
+        <img src="./images/client-maker.svg" alt="" srcset="">
+        </div>
+           <p> Coded by <a href="#">Alao Eniola Eunice</a>.</p>
+  </div>
+</div>
+</section>
+</body>
+<script src="main.js"></script>
+</html>
